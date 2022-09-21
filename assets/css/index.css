@@ -1,3 +1,7 @@
+.navbar{
+    display: flex;
+}
+
 .banner-content-text-title {
     font-family: 'Helvetica';
     font-style: normal;
@@ -17,6 +21,12 @@
     color: #000000;
 }
 
+.container-fluid .kosong{
+	height: 34px;
+	width: 100px;
+	background-color: #0D28A6;
+}
+
 .btn-banner {
     background: #5CB85F;
     border-radius: 2px;
@@ -27,7 +37,7 @@
     padding-top: 50px;
     background-color: #f1f3ff;
 }
-
+/* Our Services Section */
 .our-service-title {
     font-family: 'Helvetica';
     font-style: normal;
@@ -35,6 +45,9 @@
     font-size: 24px;
     line-height: 36px;
     color: black;
+}
+.our-service-list li {
+    list-style:none;
 }
 
 .our-service-subtitle {
@@ -45,6 +58,13 @@
     line-height: 20px;
     /* or 143% */
 }
+.fa-circle-check {
+    height: 24px;
+    width: 24px;
+    margin-right:24px;
+    color: #CFD4ED;
+}
+
 
 .cta-banner-box {
   width: 1168px;
@@ -72,6 +92,22 @@
     line-height: 20px;
     text-align: center;
     color: white;
+}
+.h1_testimonial{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.p_testimonial {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
 }
 
 .cta-btn {
@@ -116,5 +152,125 @@
 }
 .cta-banner-box{
     margin: 0 auto;
+}
+.carousel-item active{
+    text-align: center
+
+}
+.carousel-item {
+    height: 270px;
+    width: 619px;
     
+}
+.carousel-item img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.img-area {
+    width: 70px;
+	height: 70px;
+	margin-top: 30px;
+}
+
+.text-img p{
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+.text-img h3{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.testimonial .img-area{
+    float:left;
+    padding-right: 30px;
+}
+.text-img .fa-star{
+	color: #F9CC00;
+}
+.carousel-item .active{
+    text-align: center;
+}
+.carousel-item .row{
+    text-align: center;
+}
+
+.cta-banner-title{
+    padding-top: 68px;
+    font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+	color: #fff;
+}
+.cta-banner-subtitle{
+    margin-top: 20px;
+    margin-left: 324px;
+    margin-right: 324px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+    font-weight: 300;
+}
+
+.cta-banner-box .cta-btn{
+    margin-top: 60px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 2px;
+}
+
+/* Footer */
+.footer{
+    margin-top:10%;
+    margin-bottom: 5%;
+}
+
+.alamat{
+    font-size: 14px;
+	line-height: 20px; 
+}
+
+.footer-nav a{
+	font-size: 14px;
+	line-height: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.social-media p{
+    font-size: 14px;
+	line-height: 20px; 
+}
+
+.social-media i{
+    height: 40px;
+	width: 40px;
+	padding: 5px;
+	border-radius: 50%;
+	background-color: #0D28A6;
+	color: white; 
+    text-align: center;
+}
+
+.copyright{
+    font-size: 14px;
+	line-height: 20px;
+}
+
+.copyright .kosong{
+	height: 34px;
+	width: 100px;
+	background-color: #0D28A6;
+}
+.social-media .fa-brands{
+    padding-top: 12px;
+    text-align: center;
+}
+
+.social-media .fa-regular{
+    padding-top: 12px;
+    text-align: center;
 }
