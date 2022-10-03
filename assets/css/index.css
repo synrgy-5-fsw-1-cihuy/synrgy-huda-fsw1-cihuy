@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .navbar{
     display: flex;
 }
@@ -273,4 +278,46 @@
 .social-media .fa-regular{
     padding-top: 12px;
     text-align: center;
+}
+
+.section1{
+    display: inline;
+    padding-right: 150px;
+}
+.section2{
+    display: inline;
+}
+.section3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid bisque;
+    margin-left: 100px;
+    text-align: center;
+}
+.box-model{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid chocolate;
+    position: sticky;
+}
+
+.box-model-title{
+    text-align: center;
+    padding-top: 65px;
+    
+}
+.flexbox-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.asal{
+    margin-bottom: 300px;
 }
