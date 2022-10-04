@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .navbar{
     display: flex;
 }
@@ -273,4 +278,89 @@
 .social-media .fa-regular{
     padding-top: 12px;
     text-align: center;
+}
+
+.section1{
+    display: inline;
+    padding-right: 150px;
+}
+.section2{
+    display: inline;
+}
+.section3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid bisque;
+    margin-left: 100px;
+    text-align: center;
+}
+.box-model{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid chocolate;
+    position: sticky;
+}
+
+.box-model-title{
+    text-align: center;
+    padding-top: 65px;
+    
+}
+.flexbox-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.asal{
+    margin-bottom: 300px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .banner-content-text-title{
+        font-size: 20px;
+    }
+    .container-fluid{
+        padding: 0 12px;
+    }
+    .banner-content-text{
+        padding: 0 12px;
+    }
+    .mobil{
+        padding-top: 50px;
+    }
+    .our-services{
+        padding: 0;
+    }
+    .our-service-list{
+        padding-left: 0!important;
+    }
+    #why-us .mx-5 {
+        margin-left: 0!important;
+    }
+    /* CTA Banner */
+    .cta-banner-box{
+        width: 375px;
+        height: 326px;
+        border: 1px solid;
+        background-color: #0D28A6;
+        border-radius: 13px;
+    }
+    .cta-banner-title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        padding-top: 32px;
+    }
+    .cta-banner-subtitle{
+        margin-top: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+	    font-size: 14px;
+	    line-height: 20px;
+	    color: #fff;
+        font-weight: 300;
+    }
 }
